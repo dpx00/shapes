@@ -1,4 +1,4 @@
-classdef Circle < Shape2D
+classdef Circle
     properties
         radius {mustBeNumeric, mustBeScalarOrEmpty}
     end

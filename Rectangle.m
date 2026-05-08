@@ -1,4 +1,4 @@
-classdef Rectangle < Shape2D
+classdef Rectangle
     properties
         length {mustBeNumeric, mustBeScalarOrEmpty}
         width {mustBeNumeric, mustBeScalarOrEmpty}
